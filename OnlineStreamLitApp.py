@@ -78,6 +78,7 @@ def careerBySkills():
     global filtered_df
     global resources
     skills = filtered_df.columns[:-2]
+    st.write("Welcome to Career Granny.") 
     st.write("Choose your most proficient computer science skills.") 
     numSkills = st.number_input("How many skills would you like to enter? (The rest of the skills will be assumed as average or novice proficiency.)")
     if numSkills % 1 != 0 or numSkills < 1:
