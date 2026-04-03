@@ -152,7 +152,7 @@ def careerBySkills():
 
 # define main function
 def main():
-    st.subheader("Welcome to Career Granny!")
+    st.subheader(" to Career Granny!")
     st.write("Get started by selecting a feature below!")
     st.write("You can either search for skills required for a specific career or predict a career based on your skills.")
     if 'selected_option' not in st.session_state:
